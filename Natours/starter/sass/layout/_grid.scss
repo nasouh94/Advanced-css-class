@@ -1,7 +1,6 @@
 .row {
   max-width: $grid-width; // is viewport is smaller it'll fill 100% of available width
 
-  background-color:#eee;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -11,7 +10,6 @@
   @include clearfix;
 
   [class^="col-"] { //will select any class that starts with col-
-    background-color: orangered;
     float: left;
     
     &:not(:last-child) {
