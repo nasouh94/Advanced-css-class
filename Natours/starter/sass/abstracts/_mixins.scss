@@ -28,6 +28,8 @@ $breakpoint argument choices
 -tab-port
 -tab-land
 -big-desktop
+
+order: base + typography then general layout + grid then page layout then components
 */
 
 @mixin respond($breakpoint) {
