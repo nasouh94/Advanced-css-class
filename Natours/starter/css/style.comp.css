@@ -21,7 +21,7 @@ order: base + typography then general layout + grid then page layout then compon
   box-sizing: inherit; }
 
 html {
-  font-size: 60.5%; }
+  font-size: 62.5%; }
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
